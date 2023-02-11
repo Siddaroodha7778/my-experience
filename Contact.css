@@ -1,0 +1,78 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "poppins", sans-serif;
+}
+
+.container{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 100vh;
+}
+
+form{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 60%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+form h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1{
+    animation: get;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes get {
+    0%{
+        color: aquamarine;
+    }
+    50%{
+        color:teal;
+    }
+    100%{
+        color: purple;
+    }
+}
+form input, textarea{
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background: rgb(248, 226, 226);
+    font-size: 16px;
+    border-radius: 10px;
+    resize: none;
+}
+ form button{
+    background: rgb(255, 255, 255);
+    color: rgb(138, 115, 126);
+    border: 1px solid #e6675e;
+    padding: 15px;
+    font-size: 1rem ;
+    outline: none;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    margin:  20px auto 0;
+    border-radius: 30px;
+    transition:  all .5s ease-in;
+ }
+ form button  :hover{
+    border: 1px solid #e34276;
+    background: rgb(208, 224, 235);
+    color: white;
+ }
+.one-click{
+    padding-left: 15px;
+}
